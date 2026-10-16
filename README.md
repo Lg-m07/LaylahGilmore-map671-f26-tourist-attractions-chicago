@@ -72,6 +72,13 @@ A print layout was created in QGIS containing the completed map, legend, title, 
 
 The final map was published through GitHub Pages using an HTML webpage. The website displays the smaller map and provides a link to download the higher-resolution version.
 
+### QGIS Mapping Process Screenshot
+
+The screenshot below shows the Chicago attraction locations displayed in QGIS using an OpenStreetMap basemap. The points are categorized as tourist attractions and personal favorites, with labels identifying each destination.
+
+![QGIS Mapping Process](images/QGIS_Mapping_Process.png)
+
+
 ### Final Map
 
 ![Chicago Tourist Attractions Map](Chicago_Tourist_Map_1200.png)
