@@ -19,6 +19,11 @@ This project presents a map of ten locations throughout downtown Chicago, Illino
 
 ## Data Sources
 
+### Data Source Links
+
+- **OpenStreetMap:** [OpenStreetMap website](https://www.openstreetmap.org/)
+- **Location Dataset:** [Download Chicago Attractions CSV](chicago_attractions_qgis.csv)
+- **Mapping Software:** [QGIS official website](https://qgis.org/)
 - **Basemap:** OpenStreetMap contributors
 - **Attraction locations:** Compiled from publicly available location information
 - **Location data:** `chicago_attractions_qgis.csv`
@@ -47,9 +52,31 @@ The purpose of this map is to show visitors fun and popular things to do in Chic
 8. Created an HTML webpage displaying the map, project description, and supporting information.
 9. Published the project using GitHub Pages.
 
+### Additional Mapping Details
+
+The location data was organized in a CSV file named `chicago_attractions_qgis.csv`. Each location was assigned geographic coordinates and classified as either a tourist attraction or a personal favorite.
+
+The CSV data was imported into QGIS and displayed as point features using geographic coordinates in EPSG:4326 (WGS 84). OpenStreetMap was added as the basemap to provide geographic context, including streets, parks, and Lake Michigan. 
+
+### Coordinate Reference System (CRS)
+
+The original Chicago attractions dataset uses EPSG:4326 (WGS 84), a geographic coordinate reference system that represents locations using latitude and longitude in degrees.
+
+The final QGIS project also uses EPSG:4326 (WGS 84). Because the original data and project use the same coordinate reference system, no reprojection was necessary.
+
+The OpenStreetMap basemap provides geographic context for the ten Chicago locations. QGIS displays the basemap and attraction points together in the project's coordinate reference system.
+
+The point features were styled using two different colors to distinguish tourist attractions from personal favorites. Labels were added to identify each destination.
+
+A print layout was created in QGIS containing the completed map, legend, title, north arrow, scale bar, and metadata. The layout was exported as two PNG images: a smaller version approximately 1,200 pixels wide for the website and a larger version 8,000 pixels wide for downloading.
+
+The final map was published through GitHub Pages using an HTML webpage. The website displays the smaller map and provides a link to download the higher-resolution version.
+
 ### Final Map
 
-![Chicago Tourist Attractions Map](Chicago_Tourist_Map.png)
+![Chicago Tourist Attractions Map](Chicago_Tourist_Map_1200.png)
+
+[Download the High-Resolution Map (8,000 pixels)](Chicago_Tourist_Map_8000.png)
 
 ## Map Summary
 
