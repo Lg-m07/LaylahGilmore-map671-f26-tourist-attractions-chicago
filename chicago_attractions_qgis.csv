@@ -1,0 +1,11 @@
+id,name,category,address,latitude,longitude,coordinate_note,source_url
+1,Field Museum,Tourist Attraction,"1400 S Lake Shore Dr, Chicago, IL",41.8663,-87.6170,Approximate map point; verify before final,https://www.fieldmuseum.org/
+2,Navy Pier,Tourist Attraction,"600 E Grand Ave, Chicago, IL",41.89173,-87.60415,OSM mapped feature centroid,https://mapcarta.com/22152366
+3,Shedd Aquarium,Tourist Attraction,"1200 S DuSable Lake Shore Dr, Chicago, IL",41.86762,-87.61380,OSM mapped location,https://mapcarta.com/25727524
+4,Millennium Park,Tourist Attraction,"201 E Randolph St, Chicago, IL",41.88262,-87.62252,OSM park centroid,https://mapcarta.com/26259116
+5,Garrett Popcorn Shops,Tourist Attraction,"625 N Michigan Ave, Chicago, IL",41.8934,-87.6242,Approximate address point; verify before final,https://www.enjoyillinois.com/things-to-do/listing/garrett-popcorn-shops/
+6,Giordano's Millennium Park,Personal Favorite,"130 E Randolph St, Chicago, IL",41.8844,-87.6234,Approximate address point; verify before final,https://giordanos.com/locations/all/
+7,Chicago Riverwalk,Personal Favorite,"Chicago Riverwalk at Michigan Ave, Chicago, IL",41.8885,-87.6245,Representative access point; verify before final,https://www.chicago.gov/
+8,Skyline Lake Tour departure,Personal Favorite,"Navy Pier, Chicago, IL",41.8917,-87.6080,Approximate boarding area; operator departure point to verify,https://navypier.org/
+9,Water Tower Place,Personal Favorite,"835 N Michigan Ave, Chicago, IL",41.8977,-87.6228,Approximate address point; verify before final,https://www.shopwatertower.com/
+10,Portillo's Ontario Street,Personal Favorite,"100 W Ontario St, Chicago, IL",41.8933,-87.6316,Approximate address point; verify before final,https://locations.portillos.com/chicago
